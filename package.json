@@ -13,6 +13,9 @@
     "upgrade": "modern upgrade",
     "deploy": "modern deploy"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
       "node --max_old_space_size=8192 ./node_modules/eslint/bin/eslint.js --fix --color --cache --quiet"
