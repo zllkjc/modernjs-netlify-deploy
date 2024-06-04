@@ -14,7 +14,7 @@
     "deploy": "modern deploy"
   },
   "engines": {
-    "node": "18.x"
+    "node": ">=16.18.1"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,mjs,cjs}": [
