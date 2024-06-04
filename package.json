@@ -11,7 +11,7 @@
     "lint": "modern lint",
     "prepare": "husky install",
     "upgrade": "modern upgrade",
-    "deploy": "modern build && rm -rf output && mkdir output && mv dist/html output/html && modern deploy && mv output/html dist/html"
+    "deploy": "modern deploy"
   },
   "engines": {
     "node": ">=16.18.1"
