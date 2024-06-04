@@ -5,9 +5,9 @@ export default defineConfig({
   runtime: {
     router: true,
   },
-  // server: {
-  //   ssr: true,
-  // },
+  server: {
+    ssr: true,
+  },
   plugins: [
     appTools({
       bundler: 'webpack', // Set to 'experimental-rspack' to enable rspack ⚡️🦀
